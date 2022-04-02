@@ -1,0 +1,88 @@
+List of Elements:
+T-rex
+Ground
+Clouds
+Cacti
+Current Score
+Highest Score
+Game Over Message
+Restart Icon
+
+
+
+
+
+Structure and Behaviour of Elements:
+1. trex
+- trex appears to the far left and around the bottem of the screen
+- when the trex hits any cactus the game stops
+- the trex's eyes go wide when this happens (hits a cactus)
+- the trex can jump whenever you hit the spcae bar 
+  except when the game is in the restart situation
+- while the trex is on the ground "running" the legs move
+- the ground is appeared to be further behind the trex
+
+2. Cloud
+- cloud first appears in the right hand side of the screen
+- there's only one image of the cloud that loops
+- there an an infinite number of clouds
+- the verticle position of the cloud is random within a specified range
+- the clouds appear at a distance from each other
+- the clouds move from right to left (negative velocityX)
+- the cloud should be created beyond the right boundary of the canvas
+- when the cloud exits the canvas from the left boundary it needs to move fluidly and not suddenly dissapear
+- the clouds need to be created in the function draw
+
+3. Cacti
+- there is an infinte number of Cacti
+- the cacti appear in the right hand side of the screen
+- when the trex hits any cacti the game stops
+- the cacti appear at a distance from each other
+- the cacti should be created beyond the right boundary of the canvas
+- when the cacti exits the canvas from the left boundary it needs to move fluidly and not suddenly dissapear
+- the cacti need to be created in the function draw
+- the cacti move from right to left (negative velocityX)
+- the ground is appeared to be further behind the cacti
+
+4. Current Score
+- starts with 5 zeroes
+- counts for every step the dino takes
+- will stop once the dino hits any of the cacti
+- if the current score is higher than the high score it will replace the number the highscore has
+- the current score will be the only number shown on screen if it surpasses the high score
+
+5. High Score
+- the high score will start from zero when you first open the game
+- if the current score is higher than the high score it will replace the number the highscore has
+- starts with 5 zeroes
+- the current score will be the only number shown on screen if it surpasses the high score
+- the high score will reappear if the trex hits any cacti
+- the high score stays on your screen if you're playing multiple games in the same session
+- if you reload the game the high score will be set to 0
+
+6. Game Over Message
+- should be displayed decently big in the mid area of the screen
+- should be displayed only after the trex hits any cacti
+- should dissapear when the restart button is clicked
+
+7. Restart Icon
+- should be displayed right underneath the game over Message
+- should become a button that is functional
+- once pressed should reset everything in the game
+- also once pressed should make the reset button and the gamer over message to dissapear
+
+1. What is the goal of the game?
+
+2. What is the story?
+
+3. List the Elements of Structer and Behaviour Throughout the Game
+
+4. How do you provide feedback to the user or player?
+
+5. What are the rules of the game?
+
+6. Is the game based on chance or skill and how do you create a balance between them?
+
+7. What are the different languages we use?
+
+8. What are the different Java Script libraries we are going to use?
